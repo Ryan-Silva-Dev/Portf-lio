@@ -182,7 +182,7 @@
     .mais p{
         text-align: justify;
         line-height: 1.3em;
-        word-spacing: -4px;
+        word-spacing: 4px;
         text-indent: 1em;
         font-size: 0.8em;
         font-weight: bolder;
