@@ -3,8 +3,8 @@
     
 
     :root{
-        --cor-primaria: #000000;
-        --cor-secundaria: #830088;
+        --cor-primaria: #181818;
+        --cor-secundaria: #800080;
         --cor-tercearia: #ffffff;
     }
 
@@ -23,6 +23,7 @@
         background-color: var(--cor-primaria);
         margin: auto;
         -ms-overflow-style: none;  
+        max-width: 2700px;
     }
 
     body::-webkit-scrollbar {
@@ -142,13 +143,17 @@
         align-items: center;
         width: 100%;
         max-height: 100%; 
+        
     }
+    
     #foto{
+        border-radius: 50%;
+        box-shadow: 0 0 100px var(--cor-secundaria);
         max-width: 90%; 
         min-width: 50%;   
-        max-height: 70vh;
-        min-height: 70vh;    
-        object-fit: contain;
+        max-height: 90%;
+        min-height: 50%;    
+        object-fit: cover;
         display: block;
         margin: auto;
     }
@@ -175,7 +180,7 @@
         width: 600px;
         height: 700px;
         border-radius: 15px;
-        margin: 50px;
+        margin: 20px;
     }
 
     .mais h3,p{

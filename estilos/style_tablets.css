@@ -3,7 +3,7 @@
 
 
     :root{
-        --cor-primaria: #000000;
+        --cor-primaria: #181818;
         --cor-secundaria: #800080;
         --cor-tercearia: #ffffff;
     }
@@ -151,6 +151,10 @@
     
     picture{
         padding: 50px;
+    }
+    .eu{
+        border-radius: 50%;
+        box-shadow: 0 0 100px var(--cor-secundaria);
     }
     #infos{
         background-color: var(--cor-secundaria);
