@@ -88,6 +88,91 @@
             background-color: var(--cor-secundaria);
             color: var(--cor-primaria);
         }
+        @media screen and (max-width: 1200px) {
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            :root{
+                --cor-primaria: #000000;
+                --cor-secundaria: #800080;
+                --cor-tercearia: #ffffff;
+                
+            }
+            body{
+                background-color: var(--cor-primaria);
+            }
+            main{
+                display: flex;
+                flex-flow: column nowrap;
+                place-content: center center;
+                place-items: center center;
+                padding-top: 20px;
+            }
+            main h1{
+                color: var(--cor-secundaria);
+                font-size: 2em;
+                padding: 40px;
+
+            }
+            form{
+                display: flex;
+                flex-flow: column nowrap;
+                width: 50vw;
+            }
+            form p{
+                display: flex;
+                flex-flow: column;
+                place-content: center center;
+                place-items: center center;
+                font-size: 1em;
+            }
+            label{
+                padding: 15px;
+                color: var(--cor-secundaria);
+                font-weight: bold;
+            }
+            input{
+                height: 30px;
+                width: 300px;
+                padding: 10px;
+                background-color: rgb(255, 255, 255);
+                color: var(--cor-Quaternária);
+                border: none;
+                border-radius: 10px;
+                font-size: 1em;
+
+
+            }
+            #imessage{
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+                resize: none;
+                font-size: 1em;
+                text-align: justify;
+                color: var(--cor-primaria);
+                border-radius: 10px;
+                
+            }
+            button{
+                margin: 16px;
+                width: 130px;
+                height: 40px;
+                color: var(--cor-secundaria);
+                font-weight: bold;
+                font-size: 1.2em;
+                background-color: #ffffff;
+                border-radius: 10px;
+                transition: 0.2s;
+            }
+            button:hover{
+                background-color: var(--cor-secundaria);
+                color: var(--cor-primaria);
+            }
+            
+        }
         
 
 
